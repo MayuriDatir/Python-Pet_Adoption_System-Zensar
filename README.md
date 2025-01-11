@@ -60,19 +60,27 @@ Key Benefits:
 
 Streamlined Adoption Process:
 Simplifies the adoption workflow for shelters and adopters.
+
 Centralized Data Management:
 Maintains all records in a structured, centralized database.
+
 Scalability:
 Designed to be extended for use in larger systems or integrated with web and mobile platforms.
+
 No Dependency on Frameworks:
 Lightweight, efficient, and easy to deploy.
+
 Example Use Case:
 A shelter admin adds a new pet, "Bella," to the system. A user named "John Doe" expresses interest in adopting Bella. The admin records the adoption, and Bella's status is updated to "Adopted" once the process is complete. This ensures that Bella cannot be adopted by someone else.
 
 Future Enhancements:
 
 Integration with a web or mobile interface for end-users.
+
 Adding a search and filter feature for pets based on age, breed, or species.
+
 Automating email notifications for adopters regarding their adoption status.
+
 Implementing a payment gateway for donation-based adoptions.
+
 This project demonstrates a clean, modular design, emphasizing simplicity, database-driven development, and adherence to RESTful principles, making it a robust solution for managing pet adoptions.
