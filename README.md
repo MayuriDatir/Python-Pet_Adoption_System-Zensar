@@ -5,6 +5,7 @@ AVCOE,Sangamner
 Batch 1
 
 Pet Adoption System Project Description
+
 The Pet Adoption System project is a comprehensive application designed to facilitate the process of adopting pets. It connects individuals or families looking to adopt pets with shelters and organizations housing them. The system provides a platform for managing pet data, tracking adoptions, and maintaining adopter records.
 
 This project involves developing a RESTful API using Python's core libraries, connected to a MySQL database to perform CRUD (Create, Read, Update, Delete) operations on the following key entities: pets, adopters, and adoptions. The application is lightweight and framework-independent, offering simplicity and extensibility for future enhancements.
