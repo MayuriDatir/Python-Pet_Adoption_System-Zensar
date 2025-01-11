@@ -11,6 +11,7 @@ The Pet Adoption System project is a comprehensive application designed to facil
 This project involves developing a RESTful API using Python's core libraries, connected to a MySQL database to perform CRUD (Create, Read, Update, Delete) operations on the following key entities: pets, adopters, and adoptions. The application is lightweight and framework-independent, offering simplicity and extensibility for future enhancements.
 
 Key Features:
+
 Database-Driven Architecture:
 The system uses a MySQL database to store information about pets, adopters, and adoption records.
 Relationships between entities are implemented using foreign key constraints for referential integrity.
@@ -26,6 +27,7 @@ Postman is used for testing API functionality and reliability across all endpoin
 Functional Modules
 
 Pets Module:
+
 Manage information like name, species, breed, age, and adoption status.
 Adopters Module:
 Record details of adopters, including their name, contact information, and address.
@@ -37,6 +39,7 @@ Automatically updates the adoption status of pets once they are adopted.
 Ensures pets cannot be adopted more than once by marking their status as "Adopted" after a completed adoption.
 
 Error Handling and Validation:
+
 Comprehensive error handling ensures smooth operation, with appropriate responses for invalid data or operations.
 Input validation is implemented for all API requests to maintain data integrity.
 Technology Stack
@@ -54,6 +57,7 @@ Adoptions:
 Once an adopter selects a pet, the adoption is logged in the system, recording the pet's ID, the adopter's ID, and the adoption date. The status is initially marked as "Pending" and can be updated to "Completed" once finalized.
 
 Key Benefits:
+
 Streamlined Adoption Process:
 Simplifies the adoption workflow for shelters and adopters.
 Centralized Data Management:
@@ -66,6 +70,7 @@ Example Use Case:
 A shelter admin adds a new pet, "Bella," to the system. A user named "John Doe" expresses interest in adopting Bella. The admin records the adoption, and Bella's status is updated to "Adopted" once the process is complete. This ensures that Bella cannot be adopted by someone else.
 
 Future Enhancements:
+
 Integration with a web or mobile interface for end-users.
 Adding a search and filter feature for pets based on age, breed, or species.
 Automating email notifications for adopters regarding their adoption status.
